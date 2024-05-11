@@ -1,0 +1,45 @@
+.border{
+    border: 1px solid black;
+}
+body{
+    width: 920px;
+    height: auto;
+}
+.contenedor{
+    margin: 10px;
+    width: 900px;
+    height: 800px;
+}
+.top{
+    width: 100%;
+    height: 50px;
+}
+.flex-evenly{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.photo{
+    width: 345px;
+    height: 200px;
+}
+.about{
+    width: 445px;
+    height: 200px;
+}
+.tec{
+    width: 250px;
+    height: 400px;
+}
+.box-1{
+    width: 230px;
+    height: 100px;
+}
+.box-2{
+    width: 180px;
+    height: 60px;
+}
+.box-3{
+    width: 60px;
+    height: 30px;
+}
