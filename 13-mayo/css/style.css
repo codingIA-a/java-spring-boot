@@ -1,0 +1,61 @@
+body{
+    height: 100vh;
+}
+
+.titulo-movil{
+    text-align: center;
+    display: none;
+}
+.titulo-tablet{
+    text-align: center;
+    display: none;
+}
+.titulo-escritorio{
+    text-align: center;
+    display: none;
+}
+
+a{
+    color: white;
+    font-size: 14px;
+}
+.nav-bar{
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    display: flex;
+    justify-content: end;
+    gap: 50px;
+    background-color: #050a04;
+    opacity: 0.7;
+}
+
+
+/*Rango teléfono móvil*/
+@media (min-width: 320px) and (max-width: 480px){
+    .titulo-movil{
+        display: block;
+    }
+    .nav-bar{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+}
+/*Rango tablet*/
+@media (min-width: 481px) and (max-width:1023px){
+    .titulo-tablet{
+        display: block;
+    }
+    .nav-bar{
+        justify-content: center;
+        align-items: center;
+        gap: 35px;
+    }
+}
+/*Rango escritorio*/
+@media (min-width: 1024px) and (max-width: 1800px){
+    .titulo-escritorio{
+        display: block;
+    }
+}
