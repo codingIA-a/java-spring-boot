@@ -1,0 +1,28 @@
+
+Relaciones uno a muchos:
+Crear un nuevo schema llamado gestion_personal
+
+Se debe crear un sistema que registre a cada empleado en un único departamento.
+La tabla empleados debe tener los siguientes campos:
+identificacion, nombre, apellido, correo.
+La tabla departamento a la cual debe pertenecer un empleado debe tener los siguientes campos:
+identificacion de departamento y nombre de departamento
+
+------------------------------------------------------------------------------------------------------------
+Crear un nuevo schema llamado registro_ventas
+
+Se debe crear un sistema que permita registrar un cliente y asociarlo con todas sus compras
+La tabla cliente debe tener un identificador, nombre del cliente, apellido y telefono
+La tabla pedido debe tener un identificador , y una fecha en la cual se realizó la compra.
+
+------------------------------------------------------------------------------------------------------------
+
+Relaciones muchos a muchos:
+
+Crear un nuevo schema registro_estudiantil
+Represente un sistema que permita a una escuela registrar estudiantes e inscribirlos
+en sus respectivos cursos.
+La tabla estudiante debe tener un identificador, nombre del estudiante, apellido y fecha de nacimiento
+La tabla cursos debe tener un identificador y nombre de curso
+Recuerde que las relaciones muchos a muchos necesitan una tabla intermediaria, en este caso esa tabla debe llamarse inscripciones
+
